@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 10px 50px;
+  font-size: 30px;
+  color: yellow;
+  text-decoration: none;
+  background-color: blue;
+}
+
+li a:hover {
+  opacity: 0.5;
+}
+
+@media screen and (min-width:768px) {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 6px solid #f0a202;
+  }
+
+  li {
+    flex: 1 0 auto;
+  }
+
+  .first {
+    background-color: #F0a202;
+    color: #202C59;
+  }
+}
